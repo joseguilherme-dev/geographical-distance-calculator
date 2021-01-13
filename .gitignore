@@ -1,0 +1,21 @@
+# Database stuff
+*.sqlite3
+migrations/
+db.sqlite3
+
+# dotenv
+.env
+
+# virtualenv
+.venv/
+venv/
+ENV/
+
+# Django stuff:
+*.log
+local_settings.py
+
+# Byte-compiled / optimized
+__pycache__/
+*.py[cod]
+*$py.class

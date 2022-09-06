@@ -115,7 +115,7 @@ LEAFLET_CONFIG = {
     "MAX-ZOOM" : 20,
     "MIN-ZOOM" : 3,
     "SCALE" : 'both',
-    "ATTRIBUTION_PREFIX" : "DISTÂNCIA ATÉ O INSTITUTO NACIONAL DE CRIMINALÍSTICA",
+    "ATTRIBUTION_PREFIX" : "Distance to National Institute of Criminalistics",
 }
 
 

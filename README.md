@@ -1,11 +1,11 @@
 # Geographical Distance Calculator
 
-<img src="docs/svg/python.svg">
-<img src="docs/svg/django.svg">
-<img src="docs/svg/postgis.svg">
-<img src="docs/svg/leaflet.svg">
-<img src="docs/svg/docker.svg">
-<img src="docs/svg/license.svg">
+<img src="docs/svg/python.svg"></img>
+<img src="docs/svg/django.svg"></img>
+<img src="docs/svg/postgis.svg"></img>
+<img src="docs/svg/leaflet.svg"></img>
+<img src="docs/svg/docker.svg"></img>
+<img src="docs/svg/license.svg"></img>
  
 
 ### What it does:

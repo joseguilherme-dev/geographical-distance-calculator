@@ -1,10 +1,10 @@
 from django.contrib.gis import admin
 from leaflet.admin import LeafletGeoAdmin
-from .models import Myplaces
+from .models import Houses
 
 # Register your models here.
 
-@admin.register(Myplaces)
+@admin.register(Houses)
 
-class MyplacesAdmin(LeafletGeoAdmin):
+class HousesAdmin(LeafletGeoAdmin):
     list_display = ('name', 'location')

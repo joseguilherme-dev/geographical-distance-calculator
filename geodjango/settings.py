@@ -25,7 +25,7 @@ SECRET_KEY = '3&ror@p%x!ga^-fw269m6!uqf+k*gu!ptida%d+i84eli1@3t8'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 
@@ -80,10 +80,10 @@ WSGI_APPLICATION = 'geodjango.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.contrib.gis.db.backends.postgis',
-        'NAME': 'mygeodb',
-        'USER': 'dbuser',
-        'PASSWORD' : '12345',
-        'HOST' : 'localhost',
+        'NAME': 'geodistancecalculator',
+        'USER': 'johndoe',
+        'PASSWORD' : 'johndoepass',
+        'HOST' : 'db',
         'PORT' : '5432'
     }
 }

@@ -35,7 +35,7 @@ def register_new_house(request):
     name = request.POST.get('name')
     lat = float(request.POST.get('lat'))
     lon = float(request.POST.get('lon'))
-    new_house = Houses.objects.create(name=name, location=Point(lat, lon))
+    new_house = Houses.objects.create(name=name, location=Point(lon, lat))
     new_house.save()
     return HttpResponseRedirect(reverse('home'))
     
